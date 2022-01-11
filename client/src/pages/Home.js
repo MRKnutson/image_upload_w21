@@ -12,6 +12,8 @@ const Home = () => {
       <code>{JSON.stringify(auth)}</code>
       <FilePondDemo />
       <hr />
+      <p>nickname: {auth.nickname}</p>
+      <img src = {auth.image} style = {{maxWidth: "400px", maxHeight: "400px"}} />
       <UpdateUserImage />
     </div>
   );
