@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <h1>Home!</h1>
       <code>{JSON.stringify(auth)}</code>
-      <FilePondDemo />
+      <FilePondDemo id = {auth.id}/>
       <hr />
       <p>nickname: {auth.nickname}</p>
       <img src = {auth.image} style = {{maxWidth: "400px", maxHeight: "400px"}} />
